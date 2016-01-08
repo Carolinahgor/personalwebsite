@@ -14,10 +14,16 @@ li img {
 #name {
   text-align: center;
   padding-top: 3px;
+  margin-top: 150px;
 }
 
 #statement {
   text-align: center;
+}
+
+.navbar-default {
+  background-color:#DDD5CF;
+  height: 50px;
 }
 
 #ulheader {
@@ -26,7 +32,8 @@ li img {
     text-align: center;
     word-spacing: 100px;
     font-size: 15px;
-    margin-top: 50px;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 #contact {
@@ -41,14 +48,17 @@ li {
 }
 
 #intro {
-  padding: 14px ;
   text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
 }
 
 .personalpic {
-    margin-top: 25px;
+    margin-top: 100px;
     width:210px;
     height:310px;
+
 }
 
 body {
