@@ -2,11 +2,18 @@
 @import "bootstrap";
 
 #socialmediaicons {
+    display: inline;
+    padding: 5px 25px;
+}
 
+li img {
+    height: 35px;
+    width: 35px;
 }
 
 #name {
   text-align: center;
+  padding-top: 3px;
 }
 
 #statement {
@@ -17,13 +24,43 @@
     list-style-type: none;
     overflow: hidden;
     text-align: center;
+    word-spacing: 100px;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+#contact {
+  word-spacing: 3px;
 }
 
 li {
-    float: left;
-    display: block;
+    display: inline;
     color: black;
-    text-align: center;
-    padding: 14px 25px;
+    padding: 10px 10px;
     text-decoration: none;
+}
+
+#intro {
+  padding: 14px ;
+  text-align: justify;
+}
+
+.personalpic {
+    margin-top: 25px;
+    width:210px;
+    height:310px;
+}
+
+body {
+background-image: url("http://static1.squarespace.com/static/54b93b51e4b0ff9569859612/t/54c9a644e4b0f209acfecf94/1422501444140/BACKGROUND-SQUARESPACE.png (45KB) ");
+    background-position: center right;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color: #fff;
+}
+
+#aboutme {
+  margin-top: 100px;
+  text-align: center;
 }
